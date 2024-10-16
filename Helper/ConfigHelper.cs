@@ -192,6 +192,7 @@ namespace CarCareTracker.Helper
                 EnableAutoOdometerInsert = bool.Parse(_config[nameof(UserConfig.EnableAutoOdometerInsert)]),
                 PreferredGasMileageUnit = _config[nameof(UserConfig.PreferredGasMileageUnit)],
                 PreferredGasUnit = _config[nameof(UserConfig.PreferredGasUnit)],
+                HideodometerTags = bool.Parse(_config[nameof(UserConfig.HideodometerTags)]),
                 UserLanguage = _config[nameof(UserConfig.UserLanguage)],
                 HideSoldVehicles = bool.Parse(_config[nameof(UserConfig.HideSoldVehicles)]),
                 EnableShopSupplies = bool.Parse(_config[nameof(UserConfig.EnableShopSupplies)]),
