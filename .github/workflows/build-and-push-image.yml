@@ -2,7 +2,7 @@ name: Build and Push Image to Dockerhub and GHCR
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "odometer_validation"]
   release:
     types: ["published"]
 
